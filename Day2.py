@@ -29,7 +29,6 @@ def get_score_part2():
     # read file
     f = open("Day2Input.txt", "r")
 
-    # iterate through every line, add up sums for each elf and deposit in the calorie list
     while True:
         line = f.readline()
         if not line: break

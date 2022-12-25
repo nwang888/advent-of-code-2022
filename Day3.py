@@ -8,7 +8,6 @@ def sum_priorities_part_1():
     # read file
     f = open("Day3Input.txt", "r")
 
-    # iterate through every line, add up sums for each elf and deposit in the calorie list
     while True:
         line = f.readline().strip('\n')
         if not line: break
@@ -39,7 +38,6 @@ def sum_priorities_part_2():
     # read file
     f = open("Day3Input.txt", "r")
 
-    # iterate through every line, add up sums for each elf and deposit in the calorie list
     while True:
         first = f.readline().strip('\n')
         if not first: break
